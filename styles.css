@@ -1,0 +1,12 @@
+body {
+    background-color: #4d49;
+}
+input {
+    background-color: rosybrown;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
