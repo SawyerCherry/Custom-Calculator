@@ -1,5 +1,10 @@
 body {
-    background-color: #4d49;
+    background-color: beige;
+    font-family: 'Montserrat';
+}
+#inputs {
+    display: flex;
+    justify-content: space-between;
 }
 input {
     background-color: rosybrown;
@@ -7,6 +12,8 @@ input {
 h1 {
     display: flex;
     justify-content: center;
+    text-decoration: underline;
     color: black;
+    font-size: x-large;
 }
 

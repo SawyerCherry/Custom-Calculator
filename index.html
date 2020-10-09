@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <title>Pizza Calculator</title>
+    <link rel="icon" href="img/Aha-Soft-Desktop-Buffet-Pizza.ico">
 </head>
 <body>
     <main>
         <div>
             <h1>Pizza Calculator</h1>
         </div>
+        <div id="inputs">
+        <!-- I can't quite figure out how to use a dropdown list and make it work javascript, so I'll have to take a loss on that one. -->
         <p>Slices Per Pizza-<input id="slices-per-pizza" value="8" type="number"></p>
         <p>Amount of Pizzas-<input id="pizza-input" value="15" type="number"></p>
         <p>People-<input id="input-people" value= "1" type="number"></p>
-        <p>Total-<div id="display-slice-per-person">0.00</div><p>
+        <p id="display-slice-per-person"><p>
+        </div>
     </main>
       <script src="scripts.js"></script>
 </body>
